@@ -1,0 +1,6 @@
+.page-sidebar .page-sidebar-menu>li.heading>h3, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.heading>h3{
+    color: #a7dc2b;
+}
+.page-container-bg-solid .page-content{
+    background: #eef1f5 !important;
+}
