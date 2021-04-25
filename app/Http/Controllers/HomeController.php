@@ -13,7 +13,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        //
+        return view('front.layout.main');
     }
     public function Dashboard2(){
         // return "hello";
