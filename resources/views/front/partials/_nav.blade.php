@@ -12,7 +12,7 @@
                                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><strong>{{(__('frontpage.About-Us'))}}</strong><i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="04-about-us.html">GROUP PROFILES</a></li>
-                                    <li><a href="{{route('career.index')}}">CARRERS</a></li>
+                                    <li><a href="{{url('/pageCareer')}}">CARRERS</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -25,7 +25,7 @@
                             </li>
                            
                              <li class="nav-item">
-                                <a class="nav-link" href="{{route('blog.index')}}"><strong>{{__('frontpage.News-And-Events')}}</strong></a>
+                                <a class="nav-link" href="{{url('/pageBlog')}}"><strong>{{__('frontpage.News-And-Events')}}</strong></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{route('contact.index')}}"><strong>{{__('frontpage.Contact-Us')}}</strong></a>

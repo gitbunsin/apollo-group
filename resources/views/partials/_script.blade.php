@@ -8,40 +8,18 @@
         <script src="{{asset('assets/back/js/bootstrap-switch.min.js')}}" type="text/javascript"></script>
         <!-- END CORE PLUGINS -->
         <!-- BEGIN PAGE LEVEL PLUGINS -->
-        <script src="{{asset('assets/back/js/moment.min.js')}}" type="text/javascript"></script>
         <script src="{{asset('assets/back/js/daterangepicker.min.js')}}" type="text/javascript"></script>
         <script src="{{asset('assets/back/js/morris.min.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/raphael-min.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/jquery.waypoints.min.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/jquery.counterup.min.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/amcharts.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/serial.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/pie.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/radar.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/light.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/patterns.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/chalk.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/ammap.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/worldLow.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/amstock.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/fullcalendar.min.css')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/horizontal-timeline.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/jquery.flot.min.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/jquery.flot.resize.min.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/jquery.flot.categories.min.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/jquery.easypiechart.min.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/jquery.sparkline.min.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/jquery.vmap.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/jquery.vmap.russia.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/jquery.vmap.world.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/jquery.vmap.europe.js')}}" type="text/javascript"></script>
-       <script src="{{asset('assets/back/js/jquery.vmap.germany.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/jquery.vmap.usa.js')}}" type="text/javascript"></script>
-        <script src="{{asset('assets/back/js/jquery.vmap.sampledata.js')}}" type="text/javascript"></script>
+     
         <!-- END PAGE LEVEL PLUGINS -->
         <!-- BEGIN THEME GLOBAL SCRIPTS -->
+        <script src="{{ asset('https://preview.keenthemes.com/metronic-v4/theme/assets/global/scripts/datatable.js') }}"></script>
+        <script src="{{asset('https://preview.keenthemes.com/metronic-v4/theme/assets/global/plugins/datatables/datatables.min.js')}}" type="text/javascript"></script>
+        <script src="{{asset('https://preview.keenthemes.com/metronic-v4/theme/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js')}}" type="text/javascript"></script>
         <script src="{{asset('assets/back/js/app.min.js')}}" type="text/javascript"></script>
+
         <!-- END THEME GLOBAL SCRIPTS -->
+        <script src="{{ asset('https://preview.keenthemes.com/metronic-v4/theme/assets/pages/scripts/table-datatables-managed.min.js') }}"></script>
         <!-- BEGIN PAGE LEVEL SCRIPTS -->
         <script src="{{asset('assets/back/js/dashboard.min.js')}}" type="text/javascript"></script>
         <!-- END PAGE LEVEL SCRIPTS -->
@@ -51,6 +29,7 @@
         <script src="{{asset('assets/back/js/quick-sidebar.min.js')}}" type="text/javascript"></script>
         <script src="{{asset('assets/back/js/quick-nav.min.js')}}" type="text/javascript"></script>
         <!-- END THEME LAYOUT SCRIPTS -->
+
         <script>
             $(document).ready(function()
             {

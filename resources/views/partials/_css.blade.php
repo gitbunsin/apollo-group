@@ -4,12 +4,11 @@
         <link href="{{asset('assets/back/css/simple-line-icons.min.css')}}" rel="stylesheet" type="text/css" />
         <link href="{{asset('assets/back/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
         <link href="{{asset('assets/back/css/bootstrap-switch.min.css')}}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('https://preview.keenthemes.com/metronic-v4/theme/assets/global/plugins/datatables/datatables.min.css') }}"/>
+        <link href="{{ asset('https://preview.keenthemes.com/metronic-v4/theme/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css') }}"/>
+
         <!-- END GLOBAL MANDATORY STYLES -->
         <!-- BEGIN PAGE LEVEL PLUGINS -->
-        <link href="{{asset('assets/back/css/daterangepicker.min.css')}}" rel="stylesheet" type="text/css" />
-        <link href="{{asset('assets/back/css/morris.css')}}" rel="stylesheet" type="text/css" />
-        <link href="{{asset('assets/back/css/fullcalendar.min.css')}}" rel="stylesheet" type="text/css" />
-        <link href="{{asset('assets/back/css/jqvmap.css')}}" rel="stylesheet" type="text/css" />
         <!-- END PAGE LEVEL PLUGINS -->
         <!-- BEGIN THEME GLOBAL STYLES -->
         <link href="{{asset('assets/back/css/components.min.css')}}" rel="stylesheet" id="style_components" type="text/css" />

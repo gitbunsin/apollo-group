@@ -85,37 +85,29 @@
                             <p>Duis aute irure dolor in reprehenderit voluptate cupidatat proident.</p>
                         </div>
                     </div>
+    
                     <div class="col-md-12">
                         <div class="career-table">
-                            <h4><STRONG>APPLY FOR YOUR DREAM JOBS</STRONG></h4>
+                            <h4><b>APPLY FOR YOUR DREAM JOBS</b></h4>
+                            @foreach ($career as $careers)
+
                             <div class="table-box d-flex justify-content-between">
                                 <div class="job-title">
-                                    <h5><a href="">SYSTEM ADMISTRATION</a></h5>
+                                    <h6><a href="">{{strtoupper($careers->title)}}</a></h6>
                                     <ul class="list-unstyled list-inline">
-                                        <li class="list-inline-item">Brooklyn, NY<span>/</span></li>
-                                        <li class="list-inline-item">Fulltime<span>/</span></li>
-                                        <li class="list-inline-item">$5000 - $7000</li>
+                                        <li class="list-inline-item">{{strtoupper($careers->location)}}<span>/</span></li>
+                                        <li class="list-inline-item">{{strtoupper($careers->job_type)}}<span>/</span></li>
+                                        <li class="list-inline-item">{{strtoupper($careers->salary)}}</li>
                                     </ul>
                                 </div>
                                 <div class="job-apply">
-                                    <a href="#">Apply Now</a>
+                                    <a href="#">APPLY NOW</a>
                                 </div>
                             </div>
-                         
-                            <div class="table-box d-flex justify-content-between">
-                                <div class="job-title">
-                                    <h5><a href="">Senior Software Engineer</a></h5>
-                                    <ul class="list-unstyled list-inline">
-                                        <li class="list-inline-item">Urlington, TX<span>/</span></li>
-                                        <li class="list-inline-item">Fulltime<span>/</span></li>
-                                        <li class="list-inline-item">$11000 - $13000</li>
-                                    </ul>
-                                </div>
-                                <div class="job-apply">
-                                    <a href="#">Apply Now</a>
-                                </div>
-                            </div>
-                            <br/>
+                                                            
+                            @endforeach
+                    
+                            <br/> <br/> <br/>
                         </div>
                     </div>
                 </div>

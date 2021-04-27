@@ -31,3 +31,4 @@
         <!-- Custom JS -->
         <script src="{{asset('assets/front/js/plugins.js')}}"></script>
         <script src="{{asset('assets/front/js/custom.js')}}"></script>
+             <script src="{{asset('js/app.js')}}"></script>

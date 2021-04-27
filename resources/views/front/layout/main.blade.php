@@ -247,57 +247,27 @@
                             <h3><strong>CHECKOUT OUR LATEST NEWS AND EVENTS POST</strong></h3>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="blog-box">
-                            <div class="blog-img">
-                                <img src="http://www.thetahmid.com/themes/konsol-v1.0/images/blog-4.jpg" alt="" class="img-fluid">
-                                <span>25<small>Mar</small></span>
-                            </div>
-                            <div class="img-content">
-                                <h6><a href="">CHECKOUT OUR LATEST NEWS AND BLOG POST</a></h6>
-                                <p>Lorem ipsum dolor sit amet, consectet adipisi elit. Illum unde ab nostrum, maiores incidunt. Perspiciatis a quisquam modi sed.</p>
-                                <ul class="list-unstyled d-flex justify-content-between">
-                                    <li><a href=""><i class="la la-user"></i>Jhon</a></li>
-                                    <li><a href=""><i class="la la-heart-o"></i>333</a></li>
-                                    <li><a href=""><i class="la la-comment"></i>99</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="blog-box">
-                            <div class="blog-img">
-                                <img src="http://www.thetahmid.com/themes/konsol-v1.0/images/blog-4.jpg" alt="" class="img-fluid">
-                                <span>25<small>Mar</small></span>
-                            </div>
-                            <div class="img-content">
-                                <h6><a href="">CHECKOUT OUR LATEST NEWS AND BLOG POST</a></h6>
-                                <p>Lorem ipsum dolor sit amet, consectet adipisi elit. Illum unde ab nostrum, maiores incidunt. Perspiciatis a quisquam modi sed.</p>
-                                <ul class="list-unstyled d-flex justify-content-between">
-                                    <li><a href=""><i class="la la-user"></i>Jhon</a></li>
-                                    <li><a href=""><i class="la la-heart-o"></i>333</a></li>
-                                    <li><a href=""><i class="la la-comment"></i>99</a></li>
-                                </ul>
+                @if($blog)
+                    @foreach ($blog as  $blogs)
+                        <div class="col-lg-4 col-md-6">
+                            <div class="blog-box">
+                                <div class="blog-img">
+                                    <img src="{{ Storage::url($blogs->url) }}" alt="" class="img-fluid">
+                                    <span>{{$blogs->created_at->format('d')}}<small>{{$blogs->created_at->format('M')}}</small></span>
+                                </div>
+                                <div class="img-content">
+                                    <h6><a href="">{{strtoupper($blogs->title)}}</a></h6>
+                                    <p>  {{ Str::limit($blogs->description,200) }}</p>
+                                    <ul class="list-unstyled d-flex justify-content-between">
+                                        <li><a href=""><i class="la la-user"></i>BUNSIN</a></li>
+                                        <li><a href=""><i class="la la-comment"></i>READ MORE ...</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="blog-box">
-                            <div class="blog-img">
-                                <img src="http://www.thetahmid.com/themes/konsol-v1.0/images/blog-4.jpg" alt="" class="img-fluid">
-                                <span>25<small>Mar</small></span>
-                            </div>
-                            <div class="img-content">
-                                <h6><a href="">CHECKOUT OUR LATEST NEWS AND BLOG POST</a></h6>
-                                <p>Lorem ipsum dolor sit amet, consectet adipisi elit. Illum unde ab nostrum, maiores incidunt. Perspiciatis a quisquam modi sed.</p>
-                                <ul class="list-unstyled d-flex justify-content-between">
-                                    <li><a href=""><i class="la la-user"></i>Jhon</a></li>
-                                    <li><a href=""><i class="la la-heart-o"></i>333</a></li>
-                                    <li><a href=""><i class="la la-comment"></i>99</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
+                                        
+                @endif
                 </div>
             </div>
         </section>       
