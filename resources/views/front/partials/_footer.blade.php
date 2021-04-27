@@ -27,15 +27,15 @@
                      <div class="col-md-4">
                         <div class="f-link">
                             <h5>NEWS ADND EVENTS</h5>
+                            @php
+                                use App\Models\Blog;
+                                $blog = Blog::orderBy('id', 'desc')->take(5)->get();
+                            @endphp
+                          @foreach ($blog as $blogs)
                             <ul class="list-unstyled">
-                                <li><a href=""><i class="la la-angle-right"></i>Lorem ipsum dolor sit ...</a></li>
-                                <li><a href=""><i class="la la-angle-right"></i>Lorem ipsum dolor sit ...</a></li>
-                                <li><a href=""><i class="la la-angle-right"></i>Lorem ipsum dolor sit ...</a></li>
-
-                                <li><a href=""><i class="la la-angle-right"></i>Lorem ipsum dolor sit ...</a></li>
-
-
-                            </ul>
+                                <li><a href="{{url('/pageBlogDetails',$blogs->id)}}"><i class="la la-angle-right"></i>{{ Str::limit(strtoupper($blogs->title),50) }}</a></li>
+                            </ul>                                
+                          @endforeach
                         </div>
                     </div>
                     {{-- <div class="col-md-3">

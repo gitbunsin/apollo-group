@@ -28,7 +28,6 @@
                                         </div>
                                     </div>
                                        
-                                        @endif
                                                 <div class="portlet-body form">
                                        
                                 <form action="{{ route('blog.update',$blog->id) }}" method="POST" enctype="multipart/form-data">

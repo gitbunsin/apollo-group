@@ -6,5 +6,7 @@ return [
     'What-We-Do'=>'WHAT WE DO',
     'News-And-Events'=> 'NEWS AND EVENTS',
     'Contact-Us' => 'CONTACT US',
-    'Help'=> 'HELP'
+    'Help'=> 'HELP',
+    'Career' => 'CAREER',
+    'Company Profile' => 'CAMPANY PROFILES'
 ];

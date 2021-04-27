@@ -318,7 +318,9 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <div id="map"></div>
+                        <div id="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.1497276145083!2d104.9076898151423!3d11.541115147767808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31095117d172d771%3A0x5b59e3580ed8333f!2sApollo+Training+%26+Recruitment+Co.%2C+Ltd.!5e0!3m2!1sen!2skh!4v1560138850966!5m2!1sen!2skh" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>		</div>
+                        </div>
                     </div>
                     <div class="col-md-12">
                         <div class="contact-box">
@@ -383,68 +385,7 @@
         <!-- End Menu Area -->
 
         <!-- Mobile Menu -->
-        <section class="mobile-menu-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="mobile-menu">
-                            <nav id="dropdown">
-                                <a href=""><img src="images/logo.png" alt=""></a>
-                                <ul class="list-unstyled">
-                                    <li><a>Home</a>
-                                        <ul class="list-unstyled">
-                                            <li><a href="index.html">Home Version 1</a></li>
-                                            <li><a href="index2.html">Home Version 2</a></li>
-                                            <li><a href="index3.html">Home Version 3</a></li>
-                                            <li><a href="#">Coming Soon</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a>Pages</a>
-                                        <ul class="list-unstyled">
-                                            <li><a href="04-about-us.html">About Us</a></li>
-                                            <li><a href="13-team.html">Our Team</a></li>
-                                            <li><a href="14-team-single.html">Team Single</a></li>
-                                            <li><a href="17-faq.html">F.A.Q</a></li>
-                                            <li><a href="19-log-in.html">Log In</a></li>
-                                            <li><a href="20-registration.html">Register</a></li>
-                                            <li><a href="16-career.html">career</a></li>
-                                            <li><a href="15-pricing.html">Pricing Table</a></li>
-                                            <li><a href="18-404.html">404 Error</a></li>
-                                            <li><a href="21-coming-soon.html">Coming Soon</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Services</a>
-                                        <ul class="list-unstyled">
-                                            <li><a href="05-service-one.html">Service Style 1</a></li>
-                                            <li><a href="06-service-two.html">Service Style 2</a></li>
-                                            <li><a href="07-service-three.html">Service Style 3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Projects</a>
-                                        <ul class="list-unstyled">
-                                            <li><a href="08-project-one.html">Project Style 1</a></li>
-                                            <li><a href="09-project-two.html">Project Style 2</a></li>
-                                            <li><a href="10-project-three.html">Project Style 3</a></li>
-                                            <li><a href="11-project-four.html">Project Style 4</a></li>
-                                            <li><a href="12-project-details.html">Project Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Blog</a>
-                                        <ul class="list-unstyled">
-                                            <li><a href="23-blog-one.html">Blog Style 1</a></li>
-                                            <li><a href="24-blog-two.html">Blog Style 2</a></li>
-                                            <li><a href="25-blog-three.html">Blog Style 3</a></li>
-                                            <li><a href="26-blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="22-contact.html">Contact</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+       
         <!-- End Mobile Menu -->
       
         <!-- End Blog Area -->
@@ -472,3 +413,4 @@
 
     </body>
 </html>
+

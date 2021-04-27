@@ -34,4 +34,18 @@ class HomeController extends Controller
         $career = Career::all();
         return view('front.pages.career.index',compact('career'));
     }
+    public function pageFaq()
+    {
+        return view('front.pages.faq.index');
+    }
+    public function pageBlogDetails($id)
+    {
+        // dd('x');
+        $bd = blog::find($id);
+        return view('front.pages.blog.details',compact('bd'));
+    }
+    public function companyProfile(){
+        return view('front.pages.company-profile.index');
+    }
+
 }

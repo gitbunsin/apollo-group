@@ -88,13 +88,22 @@
                                                                 <i class="fa fa-angle-down"></i>
                                                             </button>
                                                             <ul class="dropdown-menu pull-left" role="menu">
-                                                                <li>
+                                                             <li>
                                                                     <a href="{{route('user.edit',$users->id)}}">
                                                                         <i class="icon-docs"></i> Edit </a>
                                                                 </li>
-                                                                <li>
-                                                                    <a href="">
-                                                                        <i class="icon-tag"></i> Delete </a>
+                                                               <li>
+                                                                    <a style="color:black" 
+                                                                        href="{{ route('user.destroy',$users->id) }}"
+                                                                        onclick="event.preventDefault();
+                                                                        document.getElementById('delete-form-{{ $users->id }}').submit();">
+                                                                 <i class="icon-trash"></i> delete
+                                                                       
+                                                                    </a>
+                                                                    <form id="delete-form-{{ $users->id }}" action="{{ route('user.destroy',$users->id) }}" method="POST">
+                                                                      @csrf
+                                                                     @method('DELETE')
+                                                                    </form>
                                                                 </li>
                                                                
                                                             </ul>

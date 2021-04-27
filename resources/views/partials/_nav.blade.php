@@ -31,7 +31,7 @@
                                     <li class="nav-item  ">
                                         <a href="app_todo.html" class="nav-link ">
                                             <i class="icon-clock"></i>
-                                            <span class="title">Todo 1</span>
+                                            <span class="title">Google Map</span>
                                         </a>
                                     </li>
                                     <li class="nav-item  ">
@@ -70,7 +70,7 @@
                                     <li class="nav-item  ">
                                         <a href="{{route('user.index')}}" class="nav-link ">
                                             <i class="icon-user"></i>
-                                            <span class="title">Profile 1</span>
+                                            <span class="title">Profile</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -109,7 +109,7 @@
                                    
                                 </ul>
                             </li>
-                            <li class="nav-item  ">
+                            {{-- <li class="nav-item  ">
                                 <a href="javascript:;" class="nav-link nav-toggle">
                                     <i class="icon-settings"></i>
                                     <span class="title">System</span>
@@ -157,7 +157,7 @@
                                         </a>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> --}}
                             
                         </ul>
                         <!-- END SIDEBAR MENU -->

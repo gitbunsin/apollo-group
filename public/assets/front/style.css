@@ -1428,7 +1428,8 @@ input:focus, textarea:focus {
 09. Feature Area 3
 ======================================= */
 .feature-area3 {
-  padding: 100px 0 65px;
+  margin-top:-70px;
+  /* padding: 100px 0 65px; */
 }
 
 .feature-area3 .sec-title {
@@ -3169,6 +3170,9 @@ input:focus, textarea:focus {
   left: 50%;
   margin-left: -45px;
 }
+.pricing-top .text-center{
+background-color: #00174d !important;
+}
 
 .pricing-table .sec-title h3:after {
   position: absolute;
@@ -3564,7 +3568,8 @@ input:focus, textarea:focus {
 24. Faq Area
 ======================================= */
 .faq-area {
-  padding: 93px 0 80px;
+  margin-top:-70px;
+  /* padding: 93px 0 80px; */
 }
 
 .faq-area .faq-box .card {
@@ -5539,7 +5544,8 @@ input:focus, textarea:focus {
 36. Blog Details
 ======================================= */
 .blog-details {
-  padding: 100px 0;
+  margin-top:-70px;
+  /* padding: 100px 0; */
 }
 
 .blog-details .blog-d-box .image-box img {

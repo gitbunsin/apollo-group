@@ -30,22 +30,35 @@
                                         </div>
                                     </div>
                                                 <div class="portlet-body form">
-                                        <form role="form">
+                                        <form action="{{ route('user.store') }}" method="POST" enctype="multipart/form-data">
+                                                 @csrf
                                             <div class="form-group">
                                                     <label>Name</label>
-                                                    <input type="text" class="form-control" placeholder="username"> 
+                                                    <input name="name" type="text" class="form-control" placeholder="username"> 
+                                                     @error('name')
+                                                     <div  class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
+                                                    @enderror
                                             </div>
                                             <div class="form-group">
                                                     <label>Email</label>
-                                                    <input type="text" class="form-control" placeholder="email"> 
+                                                    <input name="email" type="text" class="form-control" placeholder="email"> 
+                                                     @error('email')
+                                                     <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
+                                                    @enderror
                                             </div>
                                             <div class="form-group">
                                                     <label>Password</label>
-                                                    <input type="text" class="form-control" placeholder="password"> 
+                                                    <input name="password" type="password" class="form-control" placeholder="password">
+                                                     @error('password')
+                                                     <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
+                                                    @enderror 
                                             </div>
                                             <div class="form-group">
                                                     <label>Confirm Password</label>
-                                                    <input type="text" class="form-control" placeholder="confirm password"> 
+                                                    <input name="password_confirmation" type="password" class="form-control" placeholder="confirm password"> 
+                                                     @error('confirm_password')
+                                                     <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
+                                                    @enderror
                                             </div>
                                             <div class="form-actions">
                                                 <button type="submit" class="btn blue">Submit</button>

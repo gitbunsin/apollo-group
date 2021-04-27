@@ -74,7 +74,7 @@
                                     <span>{{$blogs->created_at->format('d')}}<small>{{$blogs->created_at->format('M')}}</small></span>
                                 </div>
                                 <div class="img-content">
-                                    <h6><a href="">{{strtoupper($blogs->title)}}</a></h6>
+                                    <h6><a href="{{url('/pageBlogDetails',$blogs->id)}}">{{strtoupper($blogs->title)}}</a></h6>
                                     <p>  {{ Str::limit($blogs->description,200) }}</p>
                                     <ul class="list-unstyled d-flex justify-content-between">
                                         <li><a href=""><i class="la la-user"></i>BUNSIN</a></li>

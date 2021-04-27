@@ -100,13 +100,13 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="slider-heading wow fadeInDown" data-wow-duration="1.2s" data-wow-delay="0.2s">
-                                            <h1>Clean Modern And Responsive</h1>
+                                            <h1>WELCOME TO APOLLO GROUP</h1>
                                         </div>
                                         <div class="slider-para wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.2s">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.</p>
                                         </div>
                                         <div class="slider-btn wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                            <a href="" class="hero-btn">Our Project <i class="la la-arrow-right"></i></a>
+                                            <a href="" class="hero-btn">CONTACT US<i class="la la-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -127,7 +127,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.</p>
                                         </div>
                                         <div class="slider-btn animated fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                            <a href="" class="hero-btn">Our Project <i class="la la-arrow-right"></i></a>
+                                            <a href="" class="hero-btn">OUR PROJECT <i class="la la-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -149,7 +149,7 @@
                 <div class="row">
                     <div class="col-lg-5 col-md-0">
                         <div class="about-img">
-                            <img src="http://www.thetahmid.com/themes/konsol-v1.0/images/about-2.jpg" alt="" class="img-fluid">
+                            <img width='400px'; src="https://apollo-institute.com/wp-content/uploads/2019/11/CEO1.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-12">
@@ -157,8 +157,7 @@
                             <h3>WELCOME TO APOLLO GROUP</h3>
                         </div>
                         <div class="about-content">
-                            <p>Apollo is the most practical training institute in Cambodia.With the team of best expertise in 
-                            accounting, audit, corporate finance, Cambodian taxation and other skills, we are able to deliver the best-in-class practical training programs to Cambodian professionals.
+                            <p>Apollo Institute of Advanced Sciences and Applied Business is an accredited institute from Ministry of Labor and Vocational Training. Apollo Institute provides various international and national diploma, bachelor and master programs in partnership with various institutions such as Oxford Brooke, University of London, AAT, ACCA, CIMA, TOEIC, TOEFL, Pearson, Cambridge Examinations, Mandarin for Business and so on.
                             <span>
                                 Apollo also offers best-in-class recruitment and payroll management services.
                                 Partnership with Apollo is a long-lasting partnership.
@@ -179,7 +178,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4">
                         <div class="pricing-box2">
-                            <div class="pricing-top text-center">
+                            <div style="background-color:rgb(0, 166, 63)" class="pricing-top text-center">
                                 <p><img src="{{ asset('http://apolloinv.net/wp-content/uploads/2019/06/Apollo.png') }}" alt="{{ __('') }}"></p>
                             </div>
                             <div class="pricing-content">
@@ -198,7 +197,7 @@
                     </div>
                      <div class="col-lg-4 col-md-4">
                         <div class="pricing-box2">
-                            <div class="pricing-top text-center">
+                            <div style="background-color:#00174d;" class="pricing-top text-center">
                                 <p><img src="{{ asset('https://apollo-institute.com/wp-content/uploads/2019/11/APOLLO-white-text-png-1.png') }}" alt="{{ __('') }}"></p>
                             </div>
                            <div class="pricing-content">
@@ -218,7 +217,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4">
                         <div class="pricing-box2 active">
-                            <div class="pricing-top text-center">
+                            <div style="background-color:#01325D;" class="pricing-top text-center">
                                 <p><img height="100px" src="{{ asset('http://apollohr.com/wp-content/uploads/2017/06/logo.jpg') }}" alt="{{ __('') }}"></p>
                             </div>
                          <div class="pricing-content">
@@ -252,15 +251,15 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="blog-box">
                                 <div class="blog-img">
-                                    <img src="{{ Storage::url($blogs->url) }}" alt="" class="img-fluid">
+                                    <img height='60px;' src="{{ Storage::url($blogs->url) }}" alt="" class="img-fluid">
                                     <span>{{$blogs->created_at->format('d')}}<small>{{$blogs->created_at->format('M')}}</small></span>
                                 </div>
                                 <div class="img-content">
-                                    <h6><a href="">{{strtoupper($blogs->title)}}</a></h6>
+                                    <h6><a href="{{url('/pageBlogDetails',$blogs->id)}}">{{strtoupper($blogs->title)}}</a></h6>
                                     <p>  {{ Str::limit($blogs->description,200) }}</p>
                                     <ul class="list-unstyled d-flex justify-content-between">
-                                        <li><a href=""><i class="la la-user"></i>BUNSIN</a></li>
-                                        <li><a href=""><i class="la la-comment"></i>READ MORE ...</a></li>
+                                        <li><a href="#"><i class="la la-user"></i>APOLLO</a></li>
+                                        <li><a href="{{url('/pageBlogDetails',$blogs->id)}}"><i class="la la-comment"></i>READ MORE ...</a></li>
                                     </ul>
                                 </div>
                             </div>

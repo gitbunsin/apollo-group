@@ -1,44 +1,28 @@
-    <div class="container">
-                <nav class="navbar navbar-expand">
-                    <a class="navbar-brand" href="index.html">
-                        <img width="150px"; src="http://apolloinv.net/wp-content/uploads/2019/06/Apollo.png" alt="">
-                    </a>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a   class="nav-link custom-menu {!! app()->getLocale(); !!}" href="{{url('/home')}}"><strong>{{__('frontpage.Home')}}</strong></a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><strong>{{(__('frontpage.About-Us'))}}</strong><i class="fa fa-angle-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="{{url('/companyProfile')}}"><strong>{{__('frontpage.Company Profile')}}</strong></a></li>
-                                    <li><a href="{{url('/pageCareer')}}"><strong>{{__('frontpage.Career')}}</strong></a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><strong>{{__('frontpage.What-We-Do')}}</strong> <i class="fa fa-angle-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="05-service-one.html">APOLLO INSTITUTE OF ADVANCED SCIENCES AND APPLICED BUSINESS </a></li>
-                                    <li><a href="06-service-two.html">APOLLO INVESMENT & CONSULTING</a></li>
-                                    <li><a href="07-service-three.html">APOLLO TRAINING & RECRUITMENT</a></li>
-                                </ul>
-                            </li>
-                           
-                             <li class="nav-item">
-                                <a class="nav-link" href="{{url('/pageBlog')}}"><strong>{{__('frontpage.News-And-Events')}}</strong></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{route('contact.index')}}"><strong>{{__('frontpage.Contact-Us')}}</strong></a>
-                            </li>
-                            <li class="nav-item search-box">
-                                <a href="#" class="nav-link nav-search search-trigger">
-                                    <i class="la la-search"></i>
-                                </a>
-                            </li>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+
+
+        @include('front.partials._css')
+    </head>
+    <body>
+        <!-- Preloader -->
+        <div class="preloader">
+            <div class="load-box">
+                <img src="images/preloader.gif" alt="">
+            </div>
+        </div>
+        <!-- End Preloader -->
+
+        <!-- Top Bar -->
+        <section class="top-bar">
+            <div class="container">
+               @include('front.partials._topbar')
+            </div>
+        </section>
+        <!-- End Top Bar -->
+
+        <!-- Menu Area -->
+        <div class="main-menu">
+            <div class="container">
+                @include('front.partials._nav')
                 <!-- Fullscreen search -->
                 <div class="search-wrap">
                     <div class="search-inner">
@@ -53,7 +37,7 @@
                     </div>
                 </div>
                 <!-- Sidebar -->
-                <div class="sidebar-body">
+              <div class="sidebar-body">
                     <div class="side-logo d-flex justify-content-between">
                         <div><a href="#"><img src="images/logo.png" alt=""></a></div>
                         <div><a href="#" class="close-sidebar"><i class="la la-close"></i></a></div>
@@ -214,3 +198,153 @@
                 </div>
                 <div class="sidebar-overlay"></div>
             </div>
+        </div>
+        <!-- End Menu Area -->
+
+        <!-- Mobile Menu -->
+       
+        <!-- End Mobile Menu -->
+
+        <!-- Breadcrumb Area -->
+         <section class="breadcrumb-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="breadcrumb-box">
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item"><a href="#"><i class="la la-home"></i>HOME</a> <i class="la la-angle-right"></i></li>
+                                <li class="list-inline-item">CONTACT US</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Breadcrumb Area -->
+          <div class="sidebar-overlay"></div>
+            </div>
+<section class="faq-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="faq-box">
+                            <div class="card">
+                                <div class="card-header">
+                                    <a href="" class="d-flex justify-content-between" data-toggle="collapse"  data-target="#faq1">
+                                        <span>Q. WHAT IS THE MOST APPROPRIATE WORD TO WRITE HERE?</span>
+                                        <i class="la la-plus"></i>
+                                    </a>
+                                </div>
+                                <div id="faq1" class="collapse show" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica. Anim pariatur cliche reprehenderit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <a href="" class="d-flex justify-content-between" data-toggle="collapse"  data-target="#faq2">
+                                        <span>Q. WHY YOU SHOULD CHOOSE KONSOL ACCEPT OTHER?</span>
+                                        <i class="la la-plus"></i>
+                                    </a>
+                                </div>
+                                <div id="faq2" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica. Anim pariatur cliche reprehenderit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <a href="" class="d-flex justify-content-between" data-toggle="collapse" data-target="#faq3">
+                                        <span>Q. WHAT IS THE MOST IMPORTANT THING IN YOUR LIFE?</span>
+                                        <i class="la la-plus"></i>
+                                    </a>
+                                </div>
+                                <div id="faq3" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica. Anim pariatur cliche reprehenderit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <a href="" class="d-flex justify-content-between" data-toggle="collapse" data-target="#faq4">
+                                        <span>Q. WHY APOLLO GROUP IS BEST FOR YOUR BUSINESS?</span>
+                                        <i class="la la-plus"></i>
+                                    </a>
+                                </div>
+                                <div id="faq4" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica. Anim pariatur cliche reprehenderit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <a href="" class="d-flex justify-content-between" data-toggle="collapse" data-target="#faq5">
+                                        <span>Q. HOW CAN I BUY HTIS TEMPLATE?</span>
+                                        <i class="la la-plus"></i>
+                                    </a>
+                                </div>
+                                <div id="faq5" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica. Anim pariatur cliche reprehenderit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <a href="" class="d-flex justify-content-between" data-toggle="collapse" data-target="#faq6">
+                                        <span>Q. WHAT OTHER THINNGS THAT IS BETTER IN THIS APOLLO?</span>
+                                        <i class="la la-plus"></i>
+                                    </a>
+                                </div>
+                                <div id="faq6" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica. Anim pariatur cliche reprehenderit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Area -->
+       
+        <!-- End Contact Area -->
+                <div class="sidebar-overlay"></div>
+            </div>
+        </div>
+        <!-- End Menu Area -->
+
+        <!-- Mobile Menu -->
+       
+        <!-- End Mobile Menu -->
+      
+        <!-- End Blog Area -->
+
+        <!-- Banner Area -->
+       
+        <!-- End Banner Area -->
+
+        <!-- Brand Area -->
+       
+        <!-- End Brand Area -->
+        <br/>
+        <!-- Footer Area -->
+      @include('front.partials._footer')
+        <!-- End Footer Area -->
+
+
+
+        <!-- =========================================
+        JavaScript Files
+        ========================================== -->
+
+        <!-- jQuery JS -->
+     @include('front.partials._script')
+
+    </body>
+</html>

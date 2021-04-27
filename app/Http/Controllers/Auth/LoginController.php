@@ -64,10 +64,9 @@ class LoginController extends Controller
         }
     }
     public function doLogout(Request $request){
-        dd('x');
         Auth::logout();
         Session::flush();
-    return redirect('/');
+    return redirect('/home');
     }
     /**
      * Create a new controller instance.

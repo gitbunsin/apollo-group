@@ -73,7 +73,7 @@
                     <button type="submit" class="btn green pull-right"> Login </button>
                 </div>
                
-                <div class="forget-password">
+                {{-- <div class="forget-password">
                     <h4>Forgot your password ?</h4>
                     <p> no worries, click
                         <a href="javascript:;" id="forget-password"> here </a> to reset your password. </p>
@@ -82,11 +82,11 @@
                     <p> Don't have an account yet ?&nbsp;
                         <a href="javascript:;" id="register-btn"> Create an account </a>
                     </p>
-                </div>
+                </div> --}}
             </form>
             <!-- END LOGIN FORM -->
             <!-- BEGIN FORGOT PASSWORD FORM -->
-            <form class="forget-form" action="index.html" method="post">
+            {{-- <form class="forget-form" action="index.html" method="post">
                 <h3>Forget Password ?</h3>
                 <p> Enter your e-mail address below to reset your password. </p>
                 <div class="form-group">
@@ -98,10 +98,10 @@
                     <button type="button" id="back-btn" class="btn grey-salsa btn-outline"> Back </button>
                     <button type="submit" class="btn green pull-right"> Submit </button>
                 </div>
-            </form>
+            </form> --}}
             <!-- END FORGOT PASSWORD FORM -->
             <!-- BEGIN REGISTRATION FORM -->
-            <form class="register-form" action="index.html" method="post">
+            {{-- <form class="register-form" action="index.html" method="post">
                 <h3>Sign Up</h3>
                 <p> Enter your personal details below: </p>
                 <div class="form-group">
@@ -403,9 +403,9 @@
                     <button id="register-back-btn" type="button" class="btn grey-salsa btn-outline"> Back </button>
                     <button type="submit" id="register-submit-btn" class="btn green pull-right"> Sign Up </button>
                 </div>
-            </form>
+            </form> --}}
             <!-- END REGISTRATION FORM -->
-        </div>
+        {{-- </div> --}}
         <!-- END LOGIN -->
         <!--[if lt IE 9]>
 <script src="../assets/global/plugins/respond.min.js"></script>

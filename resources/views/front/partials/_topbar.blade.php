@@ -22,7 +22,7 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="list-inline-item"><a href=""><i class="la la-question"></i>{{__('frontpage.Help')}}</a></li>
+                                <li class="list-inline-item"><a href="{{url('/pageFaq')}}"><i class="la la-question"></i>{{__('frontpage.Help')}}</a></li>
                             </ul>
                             <ul class="list-unstyled list-inline bar-social">
                                 <li class="rounded-circle list-inline-item"><a href=""><i class="fa fa-facebook"></i></a></li>
