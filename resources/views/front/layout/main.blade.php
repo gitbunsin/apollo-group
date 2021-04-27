@@ -26,68 +26,7 @@
         <!-- End Menu Area -->
 
         <!-- Mobile Menu -->
-        <section class="mobile-menu-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="mobile-menu">
-                            <nav id="dropdown">
-                                <a href=""><img src="images/logo.png" alt=""></a>
-                                <ul class="list-unstyled">
-                                    <li><a>Home</a>
-                                        <ul class="list-unstyled">
-                                            <li><a href="index.html">Home Version 1</a></li>
-                                            <li><a href="index2.html">Home Version 2</a></li>
-                                            <li><a href="index3.html">Home Version 3</a></li>
-                                            <li><a href="#">Coming Soon</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a>Pages</a>
-                                        <ul class="list-unstyled">
-                                            <li><a href="04-about-us.html">About Us</a></li>
-                                            <li><a href="13-team.html">Our Team</a></li>
-                                            <li><a href="14-team-single.html">Team Single</a></li>
-                                            <li><a href="17-faq.html">F.A.Q</a></li>
-                                            <li><a href="19-log-in.html">Log In</a></li>
-                                            <li><a href="20-registration.html">Register</a></li>
-                                            <li><a href="16-career.html">career</a></li>
-                                            <li><a href="15-pricing.html">Pricing Table</a></li>
-                                            <li><a href="18-404.html">404 Error</a></li>
-                                            <li><a href="21-coming-soon.html">Coming Soon</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Services</a>
-                                        <ul class="list-unstyled">
-                                            <li><a href="05-service-one.html">Service Style 1</a></li>
-                                            <li><a href="06-service-two.html">Service Style 2</a></li>
-                                            <li><a href="07-service-three.html">Service Style 3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Projects</a>
-                                        <ul class="list-unstyled">
-                                            <li><a href="08-project-one.html">Project Style 1</a></li>
-                                            <li><a href="09-project-two.html">Project Style 2</a></li>
-                                            <li><a href="10-project-three.html">Project Style 3</a></li>
-                                            <li><a href="11-project-four.html">Project Style 4</a></li>
-                                            <li><a href="12-project-details.html">Project Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Blog</a>
-                                        <ul class="list-unstyled">
-                                            <li><a href="23-blog-one.html">Blog Style 1</a></li>
-                                            <li><a href="24-blog-two.html">Blog Style 2</a></li>
-                                            <li><a href="25-blog-three.html">Blog Style 3</a></li>
-                                            <li><a href="26-blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="22-contact.html">Contact</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+       
         <!-- End Mobile Menu -->
 
         <!-- Hero Area Area -->
@@ -103,7 +42,8 @@
                                             <h1>WELCOME TO APOLLO GROUP</h1>
                                         </div>
                                         <div class="slider-para wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.</p>
+                                            <p>To become  one of the largest Cambodian blue chip conglomerates.
+</p>
                                         </div>
                                         <div class="slider-btn wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
                                             <a href="" class="hero-btn">CONTACT US<i class="la la-arrow-right"></i></a>
@@ -124,7 +64,7 @@
                                             <h1>We Focused On Future Business</h1>
                                         </div>
                                         <div class="slider-para animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.</p>
+                                            <p>To consistently deliver best quality products and services of our portfolios to clients in Cambodia and the region</p>
                                         </div>
                                         <div class="slider-btn animated fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
                                             <a href="" class="hero-btn">OUR PROJECT <i class="la la-arrow-right"></i></a>
@@ -157,7 +97,8 @@
                             <h3>WELCOME TO APOLLO GROUP</h3>
                         </div>
                         <div class="about-content">
-                            <p>Apollo Institute of Advanced Sciences and Applied Business is an accredited institute from Ministry of Labor and Vocational Training. Apollo Institute provides various international and national diploma, bachelor and master programs in partnership with various institutions such as Oxford Brooke, University of London, AAT, ACCA, CIMA, TOEIC, TOEFL, Pearson, Cambridge Examinations, Mandarin for Business and so on.
+                            <p>Apollo Group in Cambodia was established by Mr. SAN Chankompheak in 2018. The group invested in several SMEs projects  such as school, cow and chicken farm, equity investment and consulting firm, online mart, property management  and so on.
+
                             <span>
                                 Apollo also offers best-in-class recruitment and payroll management services.
                                 Partnership with Apollo is a long-lasting partnership.
@@ -171,11 +112,85 @@
             </div>
         </section>
         <!-- End About Us Area -->
+         <section class="feature-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sec-title text-center">
+                            <h3>OUR ACTIVITIES</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 feature-lft">
+                        <div class="feature-box d-flex flex-row-reverse text-right">
+                            <div class="ft-img text-center">
+                                <span><img src="http://www.thetahmid.com/themes/konsol-v1.0/images/feature-1.png" alt=""></span>
+                            </div>
+                            <div class="ft-content">
+                                <h6><strong>APOLLO INVESTMENT & CONSULTING</strong></h6>
+                                <p>This company focuses on providing accounting, taxes, audit and consulting services to clients</p>
+                            </div>
+                        </div>
+                        <div class="feature-box d-flex flex-row-reverse text-right">
+                            <div class="ft-img text-center">
+                                <span><img src="http://www.thetahmid.com/themes/konsol-v1.0/images/feature-2.png" alt=""></span>
+                            </div>
+                            <div class="ft-content">
+                                <h6><strong>APOLLO INSTITUE</strong></h6>
+                                <p>The company focuses on providing ACCA, CIMA and other international programs to students</p>
+                            </div>
+                        </div>
+                        <div class="feature-box d-flex flex-row-reverse text-right">
+                            <div class="ft-img text-center">
+                                <span><img src="http://www.thetahmid.com/themes/konsol-v1.0/images/feature-3.png" alt=""></span>
+                            </div>
+                            <div class="ft-content">
+                                <h6><strong>APOLLO TRAINING & RECRUITMENT</strong></h6>
+                                <p>This company focuses on provide tailored made training related to businesses and engineering fields. It also focuses on recruiting specialists </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 feature-ryt">
+                        <div class="feature-box feature-box2 d-flex">
+                            <div class="ft-img text-center">
+                                <span><img src="http://www.thetahmid.com/themes/konsol-v1.0/images/feature-4.png" alt=""></span>
+                            </div>
+                            <div class="ft-content">
+                                <h6><strong>SAN BROTHERS</strong></h6>
+                                <p>The company focuses on providing property brokerage, property management and valuation, property development and office complete solutions </p>
+                            </div>
+                        </div>
+                        <div class="feature-box feature-box2 d-flex">
+                            <div class="ft-img text-center">
+                                <span><img src="http://www.thetahmid.com/themes/konsol-v1.0/images/feature-5.png" alt=""></span>
+                            </div>
+                            <div class="ft-content">
+                                <h6><strong>TEA and WINE GALLERY</strong></h6>
+                                <p>The company focuses on providing high end teas from various regions, wine and high- end healthy food to clients</p>
+                            </div>
+                        </div>
+                        <div class="feature-box feature-box2 d-flex">
+                            <div class="ft-img text-center">
+                                <span><img src="http://www.thetahmid.com/themes/konsol-v1.0/images/feature-6.png" alt=""></span>
+                            </div>
+                            <div class="ft-content">
+                                <h6>CHENGGONG FARM</h6>
+                                <p>The farm focuses on producing high quality beef, chicken and slaughtering activities</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Project Area -->
        <!-- Pricing Area -->
         <section class="pricing-table">
             <div class="container">
                 <div class="row">
+                 <div class="col-md-12">
+                        <div class="sec-title text-center">
+                            <h3>OUR PORTFOLIOS</h3>
+                        </div>
+                    </div>
                     <div class="col-lg-4 col-md-4">
                         <div class="pricing-box2">
                             <div style="background-color:rgb(0, 166, 63)" class="pricing-top text-center">
@@ -198,7 +213,7 @@
                      <div class="col-lg-4 col-md-4">
                         <div class="pricing-box2">
                             <div style="background-color:#00174d;" class="pricing-top text-center">
-                                <p><img src="{{ asset('https://apollo-institute.com/wp-content/uploads/2019/11/APOLLO-white-text-png-1.png') }}" alt="{{ __('') }}"></p>
+                                <p><a target="_blank" href="{{url('https://apollo-institute.com/')}}"><img src="{{ asset('https://apollo-institute.com/wp-content/uploads/2019/11/APOLLO-white-text-png-1.png') }}" alt=""></a></p>
                             </div>
                            <div class="pricing-content">
                                 <ul class="list-unstyled">
@@ -210,7 +225,7 @@
                                     <li><strong>NO. 120z, ST. 438, PHUM 4, SANKGAT TOUl TOMPOUN 2, KHAN CHAMKARMON, PHNOM PENH, CAMBODIA</strong></li>
                                       <hr/>
                               </ul>
-                                <a href="#"><h6><strong>APOLLO INSTITUTE OF ADVANCED SCIENCES & APPLIED BUSINESS</strong></h6>
+                                <a target="_blank" href="{{url('https://apollo-institute.com/')}}"><h6><strong>APOLLO INSTITUTE OF ADVANCED SCIENCES & APPLIED BUSINESS</strong></h6></a>
 </a>
                             </div>
                         </div>
@@ -218,7 +233,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="pricing-box2 active">
                             <div style="background-color:#01325D;" class="pricing-top text-center">
-                                <p><img height="100px" src="{{ asset('http://apollohr.com/wp-content/uploads/2017/06/logo.jpg') }}" alt="{{ __('') }}"></p>
+                                <p><a target="_blank" href="{{url('https://apollo-institute.com/')}}"><img height="100px" src="{{ asset('http://apollohr.com/wp-content/uploads/2017/06/logo.jpg') }}" alt="{{ __('') }}"></a></p>
                             </div>
                          <div class="pricing-content">
                                 <ul class="list-unstyled">
@@ -229,8 +244,7 @@
                                     <li><strong>NO. 120z, ST. 438, PHUM 4, SANKGAT TOUl TOMPOUN 2, KHAN CHAMKARMON, PHNOM PENH, CAMBODIA</strong></li>
                                       <hr/>
                                 </ul>
-                                <a href="#"><h6><strong>APOLLO TRAINING & RECRUITMENT</strong></h6>
-</a>
+                               <a target="_blank" href="{{url('https://apollo-institute.com/')}}"><h6><strong>APOLLO TRAINING & RECRUITMENT</strong></h6></a>
                             </div>
                         </div>
                     </div>
@@ -270,6 +284,37 @@
                 </div>
             </div>
         </section>       
+         <section class="testimonial-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sec-title text-center">
+                            <h3>CHAIRMEN MESSAGE</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="testimonial-slider owl-carousel">
+                            <div class="testimonial-item">
+                                <div class="testimonial-box">
+                                    <p class="feedback"><strong>Everything is </strong>possible if we set our mind to do it. Success is the final product of our thoughts and actions</p>
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="images/test-3.png" alt="">
+                                        </div>
+                                        <div>
+                                            <h6>MR. SAN CHANKOMPHEAK</h6>
+                                            <p class="title">CHIEF EXEUCTIVE OFFICER</p>
+                                        </div>
+                                    </div>
+                                    <i class="la la-quote-right"></i>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         @include('front.partials._footer')
         <!-- End Brand Area -->
         <!-- =========================================

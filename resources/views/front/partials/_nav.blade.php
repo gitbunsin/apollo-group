@@ -1,7 +1,7 @@
     <div class="container">
                 <nav class="navbar navbar-expand">
-                    <a class="navbar-brand" href="index.html">
-                        <img width="150px"; src="http://apolloinv.net/wp-content/uploads/2019/06/Apollo.png" alt="">
+                    <a class="navbar-brand" href="{{url('/home')}}">
+                        <img width="70px"; style="margin-top: 7px;" src="{{asset('logo/apollo-group-logo.jpg')}}" alt="">
                     </a>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
@@ -16,11 +16,16 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><strong>{{__('frontpage.What-We-Do')}}</strong> <i class="fa fa-angle-down"></i></a>
+                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><strong>OUR PORTFOLIO
+</strong> <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="05-service-one.html">APOLLO INSTITUTE OF ADVANCED SCIENCES AND APPLICED BUSINESS </a></li>
-                                    <li><a href="06-service-two.html">APOLLO INVESMENT & CONSULTING</a></li>
-                                    <li><a href="07-service-three.html">APOLLO TRAINING & RECRUITMENT</a></li>
+                                    <li><a  target="_blank" href="{{url('http://apolloinv.net/')}}"><strong>APOLLO INVESMENT & CONSULTING CO.,LTD.</strong></a></li>
+
+                                    <li><a target="_blank" href="{{url('https://apollo-institute.com/')}}"><strong>APOLLO INSTITUTE OF ADVANCED SCIENCES AND APPLICED BUSINESS CO.,LTD.</strong></a></li>
+                                    <li><a  target="_blank" href="{{url('http://apollohr.com/')}}"><strong>APOLLO TRAINING & RECRUITMENT CO.,LTD.</strong></a></li>
+                                    <li><a target="_blank" href="07-service-three.html"><strong>SAN BROTHERS CO.,LTD.</strong></a></li>
+                                    <li><a href="07-service-three.html"><strong>TEA AND WINE GALLERY CO.,LTD.</strong></a></li>
+                                     <li><a href="07-service-three.html"><strong>CHENGGONE FARM CO.,LTD.</strong></a></li>
                                 </ul>
                             </li>
                            

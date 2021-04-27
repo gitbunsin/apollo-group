@@ -202,68 +202,7 @@
         <!-- End Menu Area -->
 
         <!-- Mobile Menu -->
-        <section class="mobile-menu-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="mobile-menu">
-                            <nav id="dropdown">
-                                <a href=""><img src="images/logo.png" alt=""></a>
-                                <ul class="list-unstyled">
-                                    <li><a>Home</a>
-                                        <ul class="list-unstyled">
-                                            <li><a href="index.html">Home Version 1</a></li>
-                                            <li><a href="index2.html">Home Version 2</a></li>
-                                            <li><a href="index3.html">Home Version 3</a></li>
-                                            <li><a href="#">Coming Soon</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a>Pages</a>
-                                        <ul class="list-unstyled">
-                                            <li><a href="04-about-us.html">About Us</a></li>
-                                            <li><a href="13-team.html">Our Team</a></li>
-                                            <li><a href="14-team-single.html">Team Single</a></li>
-                                            <li><a href="17-faq.html">F.A.Q</a></li>
-                                            <li><a href="19-log-in.html">Log In</a></li>
-                                            <li><a href="20-registration.html">Register</a></li>
-                                            <li><a href="16-career.html">career</a></li>
-                                            <li><a href="15-pricing.html">Pricing Table</a></li>
-                                            <li><a href="18-404.html">404 Error</a></li>
-                                            <li><a href="21-coming-soon.html">Coming Soon</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Services</a>
-                                        <ul class="list-unstyled">
-                                            <li><a href="05-service-one.html">Service Style 1</a></li>
-                                            <li><a href="06-service-two.html">Service Style 2</a></li>
-                                            <li><a href="07-service-three.html">Service Style 3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Projects</a>
-                                        <ul class="list-unstyled">
-                                            <li><a href="08-project-one.html">Project Style 1</a></li>
-                                            <li><a href="09-project-two.html">Project Style 2</a></li>
-                                            <li><a href="10-project-three.html">Project Style 3</a></li>
-                                            <li><a href="11-project-four.html">Project Style 4</a></li>
-                                            <li><a href="12-project-details.html">Project Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Blog</a>
-                                        <ul class="list-unstyled">
-                                            <li><a href="23-blog-one.html">Blog Style 1</a></li>
-                                            <li><a href="24-blog-two.html">Blog Style 2</a></li>
-                                            <li><a href="25-blog-three.html">Blog Style 3</a></li>
-                                            <li><a href="26-blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="22-contact.html">Contact</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+     
         <!-- End Mobile Menu -->
 
         <!-- Breadcrumb Area -->
@@ -274,7 +213,7 @@
                         <div class="breadcrumb-box">
                             <ul class="list-unstyled list-inline">
                                 <li class="list-inline-item"><a href="#"><i class="la la-home"></i>HOME</a> <i class="la la-angle-right"></i></li>
-                                <li class="list-inline-item">CONTACT US</li>
+                                <li class="list-inline-item">COMPANY PROFILES</li>
                             </ul>
                         </div>
                     </div>
@@ -292,25 +231,56 @@
                             <h3>Company Overview</h3>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <div class="feature-box d-flex">
                             <div class="ft-img text-center">
                                 <span><img src="images/feature-1.png" alt=""></span>
                             </div>
                             <div class="ft-content">
                                 <h6><strong>Our Mission</strong></h6>
-                                <p>Our vision is to provide professional education in par with western standards and other industrialized countries so that Cambodian students can compete internationally in the world of globalization and turbulent economy.</p>
+                                <p>To consistently deliver best quality products and services of our portfolios to clients in Cambodia and the region</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <div class="feature-box d-flex">
                             <div class="ft-img text-center">
                                 <span><img src="images/feature-2.png" alt=""></span>
                             </div>
                             <div class="ft-content">
                                 <h6><strong>Our Vision</strong></h6>
-                                <p>To consistently deliver international programs to Cambodian students so that they can have a great job with local price and real value added by focusing on quality and life employment.</p>
+                                <p>To become  one of the largest Cambodian blue chip conglomerates.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-box d-flex">
+                            <div class="ft-img text-center">
+                                <span><img src="images/feature-2.png" alt=""></span>
+                            </div>
+                            <div class="ft-content">
+                                <h6><strong>Our VALUES</strong></h6>
+                                <ul>
+                                    <li>Integrity</li>
+                                    <li>Boldness</li>
+                                    <li>Honestly</li>
+                                    <li>Fairness</li>
+                                    <li>Trustworthiness</li>
+                                    <li>Accountability</li>
+                                    <li>Learning</li>
+                                    <li>Customer Exprience</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-12 col-md-6">
+                        <div class="feature-box d-flex">
+                            <div class="ft-img text-center">
+                                <span><img src="images/feature-2.png" alt=""></span>
+                            </div>
+                            <div class="ft-content">
+                                <h6><strong>OUR HISTORY</strong></h6>
+                                <span><img width="100%;" src="{{asset('logo/history.png')}}" alt=""></span>
                             </div>
                         </div>
                     </div>

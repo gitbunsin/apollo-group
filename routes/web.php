@@ -21,7 +21,9 @@ use App\Http\Controllers\UserController;
 Route::get('/admin/dashboard', function () {
      return view('pages.content');
 })->middleware('auth');
-
+Route::get('/', function () {
+     return redirect('/home');
+ });
 
 
 Route::get('/home', [HomeController::class, 'Index']);

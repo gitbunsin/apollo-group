@@ -332,7 +332,8 @@
                                         </div>
                                         <div>
                                             <h6>LOCATION</h6>
-                                            <p><strong>NO. 120z, ST. 438, PHUM 4, SANKGAT TOUl TOMPOUN 2, KHAN CHAMKARMON, PHNOM PENH, CAMBODIA</strong></p>
+                                            <p><strong>Address: No. 120ZB, Sangkat Toul Tompoung II, Phnom Penh, Cambodia
+</strong></p>
                                         </div>
                                     </div>
                                 </div>
@@ -343,7 +344,7 @@
                                         </div>
                                         <div>
                                             <h6>EMAIL</h6>
-                                            <p><strong>INFO@APOLLO-INSTITUE.COM</strong></p>
+                                            <p><strong>sankompheak@gmail.com</strong></p>
                                         </div>
                                     </div>
                                 </div>
@@ -354,7 +355,8 @@
                                         </div>
                                         <div>
                                             <h6>PHONE</h6>
-                                            <p><strong>+(855) 81 288 858</strong></p>
+                                            <p><strong>+(855)81 288858<br/>
+                                            +(855) 69374757</strong></p>
                                         </div>
                                     </div>
                                 </div>

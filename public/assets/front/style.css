@@ -255,8 +255,8 @@ input:focus, textarea:focus {
 ======================================= */
 .top-bar {
   height: 45px;
-  border-bottom: 1px solid #00174d;
-  background-color: #00174d;
+  border-bottom: 1px solid #14345b;
+  background-color: #14345b;
   
 }
 
@@ -444,7 +444,7 @@ input:focus, textarea:focus {
 04. Logo Area
 ======================================= */
 .main-menu {
-  height: 55px;
+  height: 68px;
   padding-top: 5px;
 }
 
@@ -1020,7 +1020,7 @@ input:focus, textarea:focus {
 .hero-area .slider-wrapper .slider-item .slider-table .slider-tablecell a.hero-btn {
   font-size: 15px;
   color: #fff;
-  background: #05ab90;
+  background: #14345b;
   display: inline-block;
   text-align: center;
   width: 170px;
@@ -1506,7 +1506,7 @@ input:focus, textarea:focus {
 10. About Us
 ======================================= */
 .about-us {
-  background: #00174d;
+  background: #14345b;
   padding: 100px 0;
 }
 
@@ -3145,7 +3145,7 @@ input:focus, textarea:focus {
 22. Pricing Table
 ======================================= */
 .pricing-table {
-  padding: 100px 0;
+  /* padding: 100px 0; */
 }
 
 .pricing-table .sec-title {
@@ -3913,7 +3913,7 @@ background-color: #00174d !important;
   position: absolute;
   content: '';
   /* background: rgba(0, 0, 0, 0.85); */
-  background-color: #00174d;
+  background-color: #14345b;
   width: 100%;
   height: 30%;
   top: 0;
@@ -6059,7 +6059,7 @@ background-color: #00174d !important;
 37. Footer Area
 ======================================= */
 footer.footer {
-  background: #00174d;
+  background: #14345b;
   padding: 100px 0 92px;
 }
 

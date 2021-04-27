@@ -3,8 +3,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="f-about">
-                            <img src="https://apollo-institute.com/wp-content/uploads/2019/11/APOLLO-white-text-png-1.png" alt="" class="img-fluid">
-                            <p>Apollo Institute of Advanced Sciences and Applied Business is an accredited institute from Ministry of Labor and Vocational Training.</p>
+                            <img width="200px;" src="{{asset('logo/apollo-group-logo.jpg')}}" alt="" class="img-fluid">
                             {{-- <ul class="list-unstyled">
                                 <li><i class="la la-map-marker"></i>#523, Phsar Steung Meanchey Thmey, Toplek C8-04, 2nd Floor, St. Samdech Monireath, Sangkat Steung Meanchey, Khan Meanchey, Phnom Penh, Cambodia.</li>
                                 <li><i class="la la-envelope"></i>enquery@domain.com</li>
@@ -33,7 +32,7 @@
                             @endphp
                           @foreach ($blog as $blogs)
                             <ul class="list-unstyled">
-                                <li><a href="{{url('/pageBlogDetails',$blogs->id)}}"><i class="la la-angle-right"></i>{{ Str::limit(strtoupper($blogs->title),50) }}</a></li>
+                                <li><a href="{{url('/pageBlogDetails',$blogs->id)}}"><i class="la la-angle-right"></i>{{ Str::limit(strtoupper($blogs->title),30) }}</a></li>
                             </ul>                                
                           @endforeach
                         </div>

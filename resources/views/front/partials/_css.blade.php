@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="https://apollo-institute.com/wp-content/uploads/2019/10/APOLO-LOGO-03-150x150.png" type="image/x-icon">
+        <link rel="icon" href="{{asset('logo/apollo-group-logo.jpg')}}" type="image/x-icon">
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">

@@ -1,9 +1,9 @@
- <div class="row">
+                <div class="row">
                     <div class="col-md-6">
                         <div class="bar-left">
                             <ul class="list-unstyled list-inline">
                                 <li class="list-inline-item"><i class="la la-phone"></i>+(855) 81 288 858</li>
-                                <li class="list-inline-item"><i class="la la-envelope"></i>INFO@APOLLOGROUPCAMBODIA.COM</li>
+                                <li class="list-inline-item"><i class="la la-envelope"></i>SANKOMPHEAK@GMAIL.COM</li>
                             </ul>
                         </div>
                     </div>
